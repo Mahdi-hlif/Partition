@@ -1,0 +1,25 @@
+test-java
+*************************************** SUJET MAISON : TEST JAVA ********************************************************
+
+Écrivez une fonction « partition » qui prend un paramètre « liste » et un paramètre « taille » et retourne une liste de sous liste, où chaque sous liste a au maximum « taille » éléments.
+Exemples d'entrées et sorties :
+
+ 
+
+partition([1,2,3,4,5], 2) retourne: [ [1,2], [3,4], [5] ]
+partition([1,2,3,4,5], 3) retourne: [ [1,2,3], [4,5] ]
+partition([1,2,3,4,5], 1) retourne: [ [1], [2], [3], [4], [5] ]
+**************************************** INFORMATIONS ******************************************************************
+
+Buildé avec: Junit - The Testing plugin used. Maven - Dependency Management.
+
+Compiler avec JDK 8
+
+Versions: Ceci est la première version du projet (v0.0.1).
+
+Auteur: Mehdi ben Rabia
+
+******************************************** EXAMPLES ******************************************************************
+
+partition([1,2,3,4,5], 2) retourne: [ [1,2], [3,4], [5] ] partition([1,2,3,4,5], 3) retourne: [ [1,2,3], [4,5] ] partition([1,2,3,4,5], 1) retourne: [ [1], [2], [3], [4], [5] ]
+
